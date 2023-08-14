@@ -36,7 +36,7 @@ public class Convertidor extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("De Celcius a Fahrenheit");
 
@@ -68,10 +68,6 @@ public class Convertidor extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(85, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(81, 81, 81))
             .addGroup(layout.createSequentialGroup()
                 .addGap(143, 143, 143)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -79,7 +75,11 @@ public class Convertidor extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(119, 119, 119)
                         .addComponent(jbConvertir)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(175, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 569, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(56, 56, 56))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
